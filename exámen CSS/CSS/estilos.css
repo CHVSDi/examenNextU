@@ -1,0 +1,366 @@
+@media (max-width: 900px) {
+  body {
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: "Dancing Script", cursive;
+  }
+  @keyframes slidein {
+    0%{
+      margin-top: 150%;
+    }
+    60%{
+      margin-top: -5%;
+    }
+    100%{
+      margin-top: 0%;
+    }
+  }
+  header{
+    text-align: center;
+    background: #5b7989;
+    color: white;
+    text-shadow: 2px #02010a;
+    border: solid #5b7989;
+    border-radius: 10px 10px 0 0;
+    -webkit-animation: slidein;
+    -moz-animation: slidein;
+    -o-animation: slidein;
+    animation: slidein;
+  }
+
+  header nav ul li{
+    list-style: none;
+    display: inline;
+  }
+
+  header nav ul li #actual{
+    text-decoration: none;
+  }
+
+  header nav ul li a{
+    color: white;
+  }
+
+  .contenido{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+
+  .imagenCentral{
+    background: #82c3a6;
+    border: solid 2px #82c3a6;
+  }
+
+  .imagenCentral .imagen1 img{
+    width: 350px;
+    position: relative;
+    left: 120px;
+  }
+
+  .ImagenSecundaria{
+    display: flex;
+    flex-direction: column;
+    background: #d5c75f;
+    align-items: center;
+  }
+
+  .ImagenSecundaria figcaption a{
+    color: white;
+    font-weight: bold;
+  }
+
+  .Paisajes{
+    width: 190px;
+    text-align: center;
+  }
+
+  .Paisajes img{
+    margin: 0;
+    padding: 0;
+    width: 190px;
+  }
+
+  .Retratos{
+    width: 190px;
+    text-align: center;
+  }
+
+  .Retratos img{
+    margin: 0;
+    padding: 0;
+    width: 190px;
+  }
+
+  footer{
+    background: #C6d5c5;
+    border: solid 2px #C6d5c5;
+    border-radius: 0 0 10px 10px;
+  }
+
+  footer .Contactenos{
+   text-align: center;
+  }
+
+  footer .Contactenos ul li{
+    list-style: none;
+  }
+
+  footer .Terminos{
+    text-align: center;
+  }
+
+  footer .Terminos a{
+    text-decoration: none;
+    color: black;
+  }
+
+  footer .RedesSociales{
+    text-align: center;
+  }
+
+  footer .RedesSociales ul li{
+    list-style: none;
+  }
+
+  footer .RedesSociales ul li a{
+    text-decoration: none;
+    color: black;
+  }
+
+  footer .Derechos{
+    text-align: center;
+  }
+
+    /*Retratos y Paisajes*/
+  .Galeria{
+    display: flex;
+    flex-direction: column;
+    background: #d5c75f;
+    align-items: center;
+  }
+
+  .Galeria img{
+    width: 190px;
+    margin: 10px;
+  }
+
+  .imagen-1{
+    filter: blur(10px);
+  }
+
+  .imagen-2, .imagen-4, .imagen-6 {
+    filter: grayscale(100%)
+  }
+
+  .imagen-3 {
+    filter: sepia(90%);
+  }
+}
+
+@media (min-width: 900px) {
+
+
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Dancing Script", cursive;
+}
+
+@keyframes slidein {
+  0%{
+    margin-top: 150%;
+  }
+  60%{
+    margin-top: -5%;
+  }
+  100%{
+    margin-top: 0%;
+  }
+
+}
+header{
+  background: #5b7989;
+  border-top: solid 4px #5b7989;
+  border-radius: 10px 10px 0px 0px;
+  border-bottom: solid 4px #5b7989;
+  -webkit-animation: slidein;
+  -moz-animation: slidein;
+  -o-animation: slidein;
+  animation: slidein;
+}
+
+header h1{
+  position: relative;
+  left: 10px;
+  top:20px;
+  color: white;
+  text-shadow: 2px #02010a;
+  margin: 0;
+  padding: 0;
+  width: 500px;
+}
+
+header nav {
+  position: relative;
+  left: 950px;
+  bottom: 30px;
+  margin-top: 20px;
+  padding-left: 0;
+  margin-left: 0;
+  width: 300px;
+}
+
+
+
+header nav ul li{
+  list-style: none;
+  display: inline;
+  margin: 0px;
+  padding: 0px;
+}
+
+header nav ul li a{
+  color: white
+}
+
+header nav ul li #actual{
+  text-decoration: none;
+}
+
+.imagenCentral{
+  background: #82c3a6;
+  border: solid 15px #82c3a6;
+}
+
+.imagenCentral img{
+  display: block;
+  margin: 0 auto 0 auto;
+}
+
+.ImagenSecundaria{
+  display: flex;
+  background: #d5c75f;
+  border: solid 1px #d5c75f;
+}
+
+.ImagenSecundaria .Paisajes{
+  position: relative;
+  left: 250px;
+  text-align: center;
+  margin-left: 0px;
+}
+
+.ImagenSecundaria .Paisajes a{
+  color: black;
+  font-weight: bold;
+}
+
+.ImagenSecundaria .Paisajes img{
+  width: 280px;
+  margin: 5px;
+  box-shadow: 2px 2px #82c3a6;
+  border: solid 2px;
+}
+
+@keyframes rotar{
+  100%{
+    transform: rotate(10deg);
+  }
+}
+
+.ImagenSecundaria .Paisajes img:hover{
+  animation-name: rotar;
+  animation-duration: 1s;
+}
+
+.ImagenSecundaria .Retratos{
+  position: relative;
+  left: 440px;
+  text-align: center;
+  margin-left: 0px;
+}
+
+.ImagenSecundaria .Retratos img{
+  width: 280px;
+  margin: 5px;
+  box-shadow: 2px 2px #82c3a6;
+  border: solid black 2px;
+}
+
+.ImagenSecundaria .Retratos a{
+  color: black;
+  font-weight: bold;
+}
+
+@keyframes desplazar {
+  100%{
+    transform: translateY(-5px)
+               translateX(20px);
+  }
+}
+
+.ImagenSecundaria .Retratos img:hover{
+  animation-name: desplazar;
+  animation-duration: 1s;
+}
+
+/*Retratos y Paisajes*/
+
+.Galeria{
+  display: block;
+  background: #d5c75f;
+  align-items: center;
+}
+
+.Galeria img{
+  width: 280px;
+  margin: 50px;
+}
+
+.imagen-1{
+  filter: blur(10px);
+}
+
+.imagen-2, .imagen-4, .imagen-6 {
+  filter: grayscale(100%)
+}
+
+.imagen-3 {
+  filter: sepia(90%);
+}
+
+footer{
+  border-radius: 0px 0px 10px 10px;
+  background: #C6d5c5;
+  border: solid 1px #C6d5c5;
+  display: flex;
+}
+
+footer div{
+  margin-left: 25px;
+}
+
+footer .Contactenos ul li{
+  list-style: none;
+  position: relative;
+  right: 35px;
+}
+
+footer .RedesSociales ul li{
+  list-style: none;
+  position: relative;
+  right: 35px;
+}
+
+footer .RedesSociales ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+footer .Terminos a{
+  text-decoration: none;
+  color: black;
+}
+}
