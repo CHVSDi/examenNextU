@@ -1,0 +1,133 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(../img/Fondo.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.logo{
+  width: 125px;
+}
+
+.nav-wrapper{
+  background: #474547;
+}
+
+.slogan{
+  font-size: 16px;
+  margin-left: 15px;
+  color: white;
+}
+
+.social-bar{
+  background: rgba(71,69,71,0.5);
+  width: 30px
+}
+
+.social-icon{
+  color: white;
+  font-size: 25px;
+  margin-left: 2px
+}
+
+.img-galery{
+  width: 400px;
+}
+
+.img{
+  height: 350px;
+}
+
+.contain{
+  width: 900px;
+}
+
+.contain-header{
+  width: 600px;
+  margin: 10px;
+  padding: 0px;
+}
+
+.post{
+  background: #1C9CAA;
+}
+
+.text-post{
+  color: white;
+}
+
+.parrafo{
+  margin-left: 55px;
+  width: 355px;
+}
+
+.author-img{
+  width: 235px;
+  margin-left: 45px;
+  margin-top: 15px;
+}
+
+.author-section{
+  background: #E9FEFF;
+  padding: 0;
+  margin: 0;
+  width: 245px;
+}
+
+.author-text{
+ text-align: center;
+}
+
+.text{
+  position: relative;
+  right: 294px;
+  top: 15px;
+}
+
+.coment-section{
+  background: white;
+}
+
+.comentario{
+  margin-top: 125px;
+}
+
+.btn-comentar{
+  background: #1C9CAA;
+}
+
+.med-and-down-text{
+  position: relative;
+  right: 5px;
+  top: 5px;
+}
+
+.med-and-down-img{
+  margin-left: 25px;
+}
+
+.small-and-med-author-section{
+  background: #E9FEFF;
+  margin-top: 15px;
+  width: 245px;
+}
+
+.small-and-med-author-img{
+  width: 235px;
+  margin-left: 85px;
+  margin-top: 15px;
+}
+
+.pie{
+  margin-top: 15px;
+  border-top: 2px solid black;
+  background: #474547;
+}
+
+.texto-pie{
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}

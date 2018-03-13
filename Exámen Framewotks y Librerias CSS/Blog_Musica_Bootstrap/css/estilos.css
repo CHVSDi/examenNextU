@@ -1,0 +1,132 @@
+body{
+  background: #E0F5F2;
+}
+
+.header-bar{
+  background: #29A159;
+}
+
+.logo{
+  width: 95px;
+  margin-left: 5px;
+}
+
+.social-bar{
+  padding: 0;
+  margin-top: 60px;
+}
+
+.social-icon{
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.social-link{
+  color: #474747;
+  text-decoration: none;
+}
+
+.navbar{
+  background: #3DB6B8;
+}
+
+.navbar-text{
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-text:hover{
+  color: black;
+}
+
+.navbar-center{
+  position: absolute;
+  left: 25%;
+}
+
+.contenedor-posts-cont{
+  background: white;
+}
+
+.contenedor-posts{
+  background: #5BAB94;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  border-radius: 15px;
+}
+
+.conten-text{
+  margin-bottom: 56px;
+}
+
+.cont-img{
+  margin-top: 35px;
+}
+
+.comentarios{
+  margin-top: 15px;
+}
+ .inner-addon{
+   position: relative;
+ }
+
+ .inner-addon .glyphicon{
+   position: absolute;
+   padding: 10px;
+   pointer-events: none;
+ }
+
+ .left-addon .glyphicon{
+   left: 30px;
+ }
+
+ .left-addon input{
+   padding-left: 30px;
+ }
+
+ .form-control-busqueda{
+   border-radius: 15px;
+   margin-top: 5px;
+   width: 225px;
+   margin-left: 25px;
+ }
+
+ .busqueda-text{
+   margin-left: 30px;
+ }
+
+ .busqueda-panel{
+   background: #8AC9AC;
+   border-radius: 5px;
+ }
+
+ .panel-derecho{
+   background: #5BAB94;
+ }
+
+ .list-group{
+   margin-top: 15px;
+ }
+
+ .tipo-busqueda{
+   margin-left: 25px;
+ }
+
+ .controles{
+   width: 18px;
+   margin: 0;
+   padding: 0;
+ }
+
+ .pie{
+   margin-top: 15px;
+   border-top: 2px solid #474747;
+   background: #8AEDFF;
+ }
+
+ .texto-pie{
+   margin-top: 15px;
+   text-align: center;
+   font-weight: bold;
+ }

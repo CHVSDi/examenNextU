@@ -1,0 +1,124 @@
+body{
+  background-image: url("../img/gallo pinto 2.jpg");
+}
+
+.contenedor{
+  background: rgba(71, 69, 71, 0.5);
+}
+
+.header{
+  background: #C4F0F0;
+}
+
+.logo{
+  width: 150px;
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+
+.slogan{
+  font-size: 0.7rem;
+  margin-left: 20px;
+  padding: 0;
+  margin-bottom: 2px;
+  margin-top: 0;
+  font-weight: bold;
+  color: #44BEAA;
+}
+
+.aside{
+  margin-top: 15px;
+  background: #44BEAA;
+  margin-left: 15px;
+}
+
+.buscador{
+  margin-left: 25px;
+  margin-top: 15px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+.side-nav{
+  list-style: none;
+  margin-left: 25px;
+}
+
+.menu-link{
+  color: white;
+}
+
+.title{
+  color: white;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.col-nav{
+  margin-left: 25px;
+}
+
+.img-favoritos{
+  width: 45px;
+  height: 45px;
+  margin: 10px;
+}
+
+.historial-list{
+  list-style: none;
+}
+
+.historial-link{
+  text-decoration: none;
+  color: white;
+}
+
+.img-contenido{
+  width: 235px;
+  height: 225px;
+  margin-left: 25px;
+}
+
+.Comentario{
+  margin-left: 20px;
+  margin-top: 5px;
+  border-radius: 10px;
+  width: 150px;
+}
+
+.small-aside{
+  margin-right: 115px;
+  margin-top: 15px;
+  background: #44BEAA;
+}
+
+.small-title{
+  margin-left: 25px;
+  color: white;
+  font-weight: bold;
+}
+
+.small-img-contenido{
+  margin-left: 25px;
+  width: 135px;
+  height: 125px;
+}
+
+.small-Comentario{
+  border-radius: 10px;
+  width: 150px;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.pie{
+  margin-top: 15px;
+  border-top: 2px solid #474747;
+  background: #C4F0F0;
+}
+
+.texto-pie{
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+}
